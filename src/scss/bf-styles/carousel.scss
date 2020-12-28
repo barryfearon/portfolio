@@ -1,0 +1,238 @@
+/* ==========================================================================
+Carousel
+========================================================================== */
+.carousel-drop-shadow {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.16);
+}
+
+.carousel {
+  a:hover {
+    text-decoration: none;
+  }
+
+  .control-dots {
+    padding-left: 0;
+    padding-inline-start: 0;
+  }
+
+  .centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 600px;
+    padding: 0 15px 0 15px;
+    text-align: center;
+  }
+
+  @include media-breakpoint-down(sm) {
+    .slide-wrapper {
+      background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      -webkit-background-size: contain;
+    }
+  }
+
+  .slide-wrapper {
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 300px;
+
+    & > .container {
+      min-height: 300px;
+    }
+  }
+
+  .hp-banner-title {
+    @include font-size(2.625rem);
+    vertical-align: baseline !important;
+  }
+
+  @include media-breakpoint-down(md) {
+    .hp-banner-title {
+      @include font-size(2rem);
+      padding-top: 0.5rem;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    .slide-wrapper {
+      min-height: 350px;
+
+      & > .container {
+        min-height: 350px;
+      }
+    }
+  }
+}
+
+.carousel h1,
+.carousel p {
+  color: white;
+}
+
+// .carousel h1 {
+//     font-size: 35px;
+//     font-weight: 800;
+// }
+
+// .carousel p {
+//     font-size: 24px;
+//     line-height: 38px;
+// }
+
+.banner .action-links {
+  position: absolute;
+  bottom: 50px; //  Push upward into slide
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .banner .action-links {
+    bottom: 30px;
+  }
+  // .carousel .slide-wrapper {
+  //   min-height: 350px;
+  // }
+}
+
+.homepage {
+  .banner {
+    // max-width: 991px;
+  }
+  .carousel {
+    .slide {
+      background: transparent;
+    }
+    .slide-content {
+      position: absolute;
+      top: 55%;
+      width: 100%;
+      max-width: 100%;
+      padding: 15px 60px;
+      text-align: left;
+      background: rgba(255, 255, 255, 0.5);
+
+      & h1 {
+        font-size: $font-size-base * 2.9;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .homepage .carousel .slide-content {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    max-width: 570px;
+    padding: 0 70px;
+    text-align: center;
+
+    & h1 {
+      font-size: 30px;
+    }
+
+    & button.banner-button {
+      margin-top: 0 !important;
+      padding: 8px 35.2px;
+      line-height: 28.2px;
+      border-radius: 4px;
+    }
+  }
+  //   .carousel p {
+  //     font-size: 18px;
+  //     line-height: 29px;
+  //   }
+  // .carousel .slide-wrapper {
+  //   min-height: 260px;
+  // }
+}
+
+.casino-promotions-banner {
+  .carousel {
+    .slide-wrapper {
+      min-height: 400px;
+      background: #f6f6f6;
+    }
+
+    @include media-breakpoint-down(xs) {
+      .slide-wrapper::before {
+        content: '';
+        background-color: unset;
+        opacity: 0;
+      }
+    }
+
+    .control-dots {
+      padding-left: 0;
+      padding-inline-start: 0;
+
+      .dot {
+        border: 1px solid #556672;
+
+        &.selected {
+          background: #71b5a6;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #0b2534;
+      line-height: 54px;
+    }
+
+    h3 {
+      font-size: 24px;
+      color: #0b2534;
+      line-height: 32px;
+    }
+
+    h1,
+    h3,
+    a {
+      color: #0b2534;
+      text-decoration: none;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .casino-promotions-banner {
+    .carousel {
+      .slide-wrapper {
+        min-height: 100%;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .casino-promotions-banner {
+    .carousel {
+      .slide-wrapper {
+        min-height: 533px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel {
+    max-height: 100%;
+
+    .centered-content {
+      top: 40%;
+    }
+  }
+  .banner .action-links {
+    bottom: 12px;
+  }
+}
