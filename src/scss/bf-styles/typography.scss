@@ -6,7 +6,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: 200;
-  @include responsive-font-size(20px);
+  @include font-size(20px);
   color: $gray-100;
   font-display: swap;
 }
@@ -16,11 +16,11 @@ b, strong {
 }
 
 h1 {
-  @include responsive-font-size(4rem, font-size);
+  @include font-size(4rem);
 }
 
 .lead {
-  @include responsive-font-size(1.5rem);
+  @include font-size(1.5rem);
   line-height: 3rem;
 }
 

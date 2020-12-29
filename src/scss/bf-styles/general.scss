@@ -1,13 +1,23 @@
-$imagePath : "/images";
-
 .email-address {
   word-wrap: break-word;
+}
+
+.bf-title {
+  z-index: 0;
+  &.home {
+    z-index: 1;
+  }
+}
+
+.bf-portfolio {
+  z-index: 0;
 }
 
 .back-btn {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .portfolio-container {
