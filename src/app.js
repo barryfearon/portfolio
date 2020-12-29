@@ -8,6 +8,7 @@ import './scripts/custom';
 
 //Image imports: https://medium.com/front-end-weekly/webpack-and-dynamic-imports-doing-it-right-72549ff49234
 import(/* webpackMode: "eager" */ `./assets/images/${'blank'}.gif`);
+import(/* webpackMode: "eager" */ `./assets/images/logos/${'barryfearon'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/websites/${'greysnow-poker-thumb'}.jpg`);
 import(/* webpackMode: "eager" */ `./assets/images/websites/${'greysnow-desktop-01'}.png`);
 import(/* webpackMode: "eager" */ `./assets/images/websites/${'greysnow-desktop-small'}.png`);
