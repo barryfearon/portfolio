@@ -33,11 +33,10 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
+    "@popperjs/core": "^2.6.0",
     "animate.css": "^4.1.0",
-    "bootstrap": "^4.4.1",
-    "jquery": "3.4.1",
-    "lazysizes": "^5.2.0",
-    "popper.js": "^1.16.0"
+    "bootstrap": "^5.0.0-beta1",
+    "lazysizes": "^5.2.0"
   },
   "repository": "git+ssh://git@bitbucket.org/pokerdevelopment/web-design.git",
   "homepage": "https://bitbucket.org/pokerdevelopment/web-design#readme"
