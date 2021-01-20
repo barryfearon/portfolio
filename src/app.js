@@ -1,3 +1,5 @@
+import '../modernizr';
+
 import 'bootstrap';
 
 import './scss/app.scss';
@@ -8,7 +10,10 @@ import './scripts/custom';
 
 //Image imports: https://medium.com/front-end-weekly/webpack-and-dynamic-imports-doing-it-right-72549ff49234
 import(/* webpackMode: "eager" */ `./assets/images/${'blank'}.gif`);
-import(/* webpackMode: "eager" */ `./assets/images/logos/${'barryfearon'}.svg`);
+import(/* webpackMode: "eager" */ `./assets/images/${'barry-fearon'}.svg`);
+import(/* webpackMode: "eager" */ `./assets/images/${'linked-in'}.svg`);
+import(/* webpackMode: "eager" */ `./assets/images/${'phone'}.svg`);
+import(/* webpackMode: "eager" */ `./assets/images/${'plane'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/websites/${'greysnow-poker-thumb'}.jpg`);
 import(/* webpackMode: "eager" */ `./assets/images/websites/${'greysnow-desktop-01'}.png`);
 import(/* webpackMode: "eager" */ `./assets/images/websites/${'greysnow-desktop-small'}.png`);
@@ -53,6 +58,9 @@ import(/* webpackMode: "eager" */ `./assets/images/logos/${'react'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'mjml'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'php'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'wordpress'}.svg`);
+import(/* webpackMode: "eager" */ `./assets/images/logos/${'chrome-logo'}.svg`);
+import(/* webpackMode: "eager" */ `./assets/images/logos/${'firefox-logo'}.svg`);
+import(/* webpackMode: "eager" */ `./assets/images/logos/${'microsoft_edge-logo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/${'undo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'Adobe_XD_CC_icon'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/icons/${'apple-touch-icon'}.png`);

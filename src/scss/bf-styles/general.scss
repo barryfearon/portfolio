@@ -1,8 +1,27 @@
+.browserNotSupported {
+  display: none;
+  &.active {
+    display: inline;
+    background: #0a0a0a;
+    color: #00d4ddb3;
+    font-size: 1.5rem;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    padding: 6rem;
+    z-index: 4;
+  }
+}
+
 .email-address {
   word-wrap: break-word;
 }
 
 .bf-title {
+  background-blend-mode: normal;
   z-index: 0;
   &.home {
     z-index: 1;
@@ -21,7 +40,6 @@
 }
 
 .portfolio-container {
-
   a {
     border-radius: 0;
     height: calc(50vh - 8vh);
@@ -32,7 +50,7 @@
     border: 1px solid $white;
 
     &:before {
-      content: '';
+      content: "";
       width: 100%;
       height: 100%;
       background: rgba(0, 0, 0, 0.4);

@@ -6,6 +6,12 @@ document.addEventListener('lazybeforeunveil', function(e){
     }
   });
 
+  $(function () { // When page finished loading
+    if ( $('.no-backgroundblendmode').length ) { // if there is an DOM that has class no-backgroundblendmode
+      $('.browserNotSupported').addClass('active'); // Show Modal
+    }
+  });
+
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   });
