@@ -61,6 +61,7 @@ import(/* webpackMode: "eager" */ `./assets/images/logos/${'wordpress'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'chrome-logo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'firefox-logo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'microsoft_edge-logo'}.svg`);
+import(/* webpackMode: "eager" */ `./assets/images/logos/${'safari-logo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/${'undo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'Adobe_XD_CC_icon'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/icons/${'apple-touch-icon'}.png`);
