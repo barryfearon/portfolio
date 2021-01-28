@@ -79,6 +79,16 @@ module.exports = {
       filename: "utmost-detail.html",
       template: "src/assets/utmost-detail.html",
     }),
+
+    new HtmlWebpackPlugin({
+      filename: "dra-c-galluci.html",
+      template: "src/assets/dra-c-galluci.html",
+    }),
+
+    new HtmlWebpackPlugin({
+      filename: "gamingmechanics.html",
+      template: "src/assets/gamingmechanics.html",
+    }),
   ],
 
   module: {
