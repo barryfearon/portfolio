@@ -36,11 +36,6 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin(),
-    new webpack.ProvidePlugin({
-      $: "jquery",
-      jQuery: "jquery",
-      "window.jQuery": "jquery",
-    }),
 
     new BrowserSyncPlugin({
       host: "localhost",
@@ -88,6 +83,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "gamingmechanics.html",
       template: "src/assets/gamingmechanics.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "axa-wealth.html",
+      template: "src/assets/axa-wealth.html",
+    }),
+    new HtmlWebpackPlugin({
+      filename: "utmost-ux-detail.html",
+      template: "src/assets/utmost-ux-detail.html",
     }),
   ],
 
