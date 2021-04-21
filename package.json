@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Barry Fearon <bfearon@iowaycorp.com>",
+  "author": "Barry Fearon <barryfearon@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2",
