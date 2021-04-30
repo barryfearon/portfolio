@@ -1,5 +1,5 @@
 node_modules
-dist/*
+dist/*/**
 *.ai
 *.psd
-screenshots
+screenshots/*/**

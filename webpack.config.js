@@ -92,6 +92,10 @@ module.exports = {
       filename: "utmost-ux-detail.html",
       template: "src/assets/utmost-ux-detail.html",
     }),
+    new HtmlWebpackPlugin({
+      filename: "nativegaming.html",
+      template: "src/assets/nativegaming.html",
+    }),
   ],
 
   module: {

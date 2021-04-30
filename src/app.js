@@ -116,6 +116,7 @@ import(/* webpackMode: "eager" */ `./assets/images/logos/${'chrome-logo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'firefox-logo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'microsoft_edge-logo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'safari-logo'}.svg`);
+import(/* webpackMode: "eager" */ `./assets/images/logos/${'Figma-logo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/${'undo'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/logos/${'Adobe_XD_CC_icon'}.svg`);
 import(/* webpackMode: "eager" */ `./assets/images/icons/${'apple-touch-icon'}.png`);
@@ -133,5 +134,15 @@ import(/* webpackMode: "eager" */ `./assets/images/icons/${'android-chrome-192x1
 import(/* webpackMode: "eager" */ `./assets/images/icons/${'android-chrome-512x512'}.png`);
 import(/* webpackMode: "eager" */ `./assets/images/icons/${'favicon-16x16'}.png`);
 import(/* webpackMode: "eager" */ `./assets/images/icons/${'favicon-32x32'}.png`);
+import(/* webpackMode: "eager" */ `./assets/images/websites/${'native-gaming-all-devices-01'}.png`);
+import(/* webpackMode: "eager" */ `./assets/images/websites/${'native-gaming-desktop-01'}.png`);
+import(/* webpackMode: "eager" */ `./assets/images/websites/${'native-gaming-laptop-01'}.png`);
+import(/* webpackMode: "eager" */ `./assets/images/websites/${'native-gaming-mobile-01'}.png`);
+import(/* webpackMode: "eager" */ `./assets/images/websites/${'native-gaming-thumb'}.jpg`);
+import(/* webpackMode: "eager" */ `./assets/images/websites/${'desktop'}.png`);
+import(/* webpackMode: "eager" */ `./assets/images/websites/${'laptop'}.png`);
+import(/* webpackMode: "eager" */ `./assets/images/websites/${'mobile'}.png`);
+import(/* webpackMode: "eager" */ `./assets/images/websites/${'laptop'}.png`);
+import(/* webpackMode: "eager" */ `./assets/images/websites/${'all-devices'}.png`);
 
 
